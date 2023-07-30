@@ -34,7 +34,7 @@ p,
 }
 
 .container {
-  max-width: 1140px;
+  max-width: 1120px !important;
 }
 
 /* navbar part start here */
@@ -682,7 +682,127 @@ nav p i {
 
 
 
-
-
-
 /* applicaton information part end here */
+
+
+/* features style part start here  */
+
+#features_part {
+  padding: 170px 0 100px;
+}
+
+
+
+#features_part .container {
+  padding: 70px 90px 40px 40px;
+  border-radius: 20px;
+  background: #FFF;
+  box-shadow: 0px 30px 20px 0px rgba(47, 21, 135, 0.15);
+  height: 350px;
+  position: relative;
+}
+
+
+#features_part .feature_image {
+  background: url(/images/featurePic.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 100px;
+  width: 373px;
+  height: 425px;
+  position: absolute;
+  bottom: 40px;
+}
+
+#features_part .feature_image img {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%);
+}
+
+
+#features_part .feature_text span {
+  color: var(--main-color, #FF6231);
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 170%;
+  /* 20.4px */
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+}
+
+
+
+#features_part .feature_text h4 {
+  color: #000;
+
+  /* headings/H3 */
+  font-family: Darker Grotesque;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100%;
+  /* 36px */
+  text-transform: capitalize;
+}
+
+
+
+#features_part .feature_text p {
+  color: var(--text-color, #888);
+
+  /* body text */
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 170%;
+  /* 27.2px */
+  width: 438px;
+  margin: 14px 0 26px;
+}
+
+
+
+
+#features_part .feature_text input {
+  color: #B3B1B7;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 170%;
+  /* 23.8px */
+  padding: 17px 30px;
+  border-radius: 50px;
+  border: 1px solid #E6EBFC;
+  background: #FFF;
+  width: 399px;
+  height: 60px;
+}
+
+
+#features_part .feature_text a {
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 170%;
+  /* 27.2px */
+  text-transform: capitalize;
+  border-radius: 30px;
+  background: linear-gradient(270deg, rgba(255, 169, 121, 0.99) 0%, rgba(255, 98, 49, 0.99) 100%);
+  box-shadow: 0px 5px 10px 0px rgba(252, 104, 58, 0.25);
+  padding: 16px 35px;
+  margin-left: 20px;
+}
+
+
+
+
+/* features style part end here  */
