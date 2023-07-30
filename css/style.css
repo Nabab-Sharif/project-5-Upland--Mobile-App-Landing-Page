@@ -685,7 +685,7 @@ nav p i {
 /* applicaton information part end here */
 
 
-/* features style part start here  */
+/* features part style start here  */
 
 #features_part {
   padding: 170px 0 100px;
@@ -716,10 +716,10 @@ nav p i {
 }
 
 #features_part .feature_image img {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%);
 }
 
 
@@ -783,6 +783,7 @@ nav p i {
   background: #FFF;
   width: 399px;
   height: 60px;
+  outline: none;
 }
 
 
@@ -802,7 +803,96 @@ nav p i {
   margin-left: 20px;
 }
 
+/* features part style end here  */
+
+
+/* footer part style start here */
+footer {
+  background: url(/images/footerbackground.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 314px;
+}
+
+footer .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer .container h4 {
+  color: #FFF;
+  font-family: Combo;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 170%;
+  margin-bottom: 16px;
+}
+
+
+footer .container ul {
+  display: flex;
+  column-gap: 30px;
+  align-items: center;
+  margin-bottom: 51px;
+}
+
+footer .container ul i {
+  font-size: 4px;
+  color: rgba(255, 255, 255, 0.50);
+  ;
+}
+
+footer .container ul li a {
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 170%;
+}
 
 
 
-/* features style part end here  */
+
+footer .container ul button {
+  color: white;
+  background-color: #FF6231;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 170%;
+  padding: 4px 20px;
+  border-radius: 20px;
+  border: 2px solid var(--main-color, #FF6231);
+}
+
+
+footer .container ul button:hover {
+  color: var(--main-color, #FF6231);
+  background: rgba(255, 255, 255, 0.0);
+}
+
+
+footer .copyright .line {
+  height: 1px;
+  opacity: 0.10000000149011612;
+  background: #FFF;
+}
+
+footer .copyright p {
+  color: #B3B1B7;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 170%;
+  padding: 23px 0;
+  text-align: center;
+}
+
+
+/* footer part style end here */
