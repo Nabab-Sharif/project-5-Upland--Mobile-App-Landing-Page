@@ -50,6 +50,7 @@ nav {
 
 .navbar {
   padding-left: 0;
+
 }
 
 nav .navbar-nav {
@@ -64,7 +65,9 @@ nav .navbar-nav .nav-item .nav-link {
   font-style: normal;
   font-weight: 400;
   line-height: 170%;
+
 }
+
 
 nav .navbar-nav .nav-item .nav-link:hover {
   color: orange;
@@ -75,8 +78,8 @@ nav .navbar-nav .nav-item .active {
 }
 
 
-nav .btn {
-  color: #FF6231;
+nav .btns {
+  color: white;
   font-family: Roboto;
   font-size: 16px;
   font-style: normal;
@@ -86,6 +89,12 @@ nav .btn {
   border-radius: 20px;
   border: 2px solid #FF6231;
   margin-left: 30px;
+  background: #FF6231;
+}
+
+nav .btns:hover {
+  color: #FF6231;
+  background-color: rgba(255, 255,255, 0);
 }
 
 nav p {
@@ -104,30 +113,32 @@ nav p i {
 
 /* navbar part end here */
 
+
+
+
 /* banner part start here */
 #banner_part {
-  background: url(/images/banner.jpg);
+  background: url(../images/banner.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  padding: 391px 0;
+  padding: 257px 0;
   position: relative;
+  z-index: 1;
+  object-fit:fill;
 }
 
 #banner_part .overlay {
-  content: "";
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
   background-color: rgba(31, 29, 29, 0.6);
+  z-index: -1;
 }
 
 
-#banner_part .text {
-  margin-top: 256px;
-}
 
 #banner_part .text h6 {
   color: #FF6231;
@@ -290,7 +301,7 @@ nav p i {
 
 /* presentation part start here*/
 #presentation_part {
-  background: url(/images/presentation.png);
+  background: url(../images/presentation.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -435,7 +446,7 @@ nav p i {
   font-style: normal;
   font-weight: 400;
   line-height: 100%;
-  /* 10px */
+ 
 }
 
 
@@ -446,7 +457,6 @@ nav p i {
   font-style: normal;
   font-weight: 500;
   line-height: 170%;
-  /* 23.8px */
   text-transform: uppercase;
 }
 
@@ -459,7 +469,6 @@ nav p i {
   font-style: normal;
   font-weight: 500;
   line-height: 170%;
-  /* 20.4px */
   letter-spacing: 1.2px;
   text-transform: uppercase;
 }
@@ -516,17 +525,18 @@ nav p i {
 }
 
 
-
 /* presentation part end here*/
+
 
 
 /* about slide part  start here */
 /* about slide part  end here */
 
 
+
 /* trial part start here */
 #trial_part {
-  background: url(/images/trialbackround.png);
+  background: url(../images/trialbackround.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -541,11 +551,11 @@ nav p i {
 }
 
 #trial_part .container {
-  background: url(/images/trialCenterPart.png);
+  background: url(../images/trialCenterPart.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  padding: 153px 173px;
+  padding: 153px 0 173px;
 }
 
 
@@ -555,7 +565,7 @@ nav p i {
 
 
 #trial_part .container .trial_text p {
-  color: var(--main-color, #FF6231);
+  color:  #FF6231;
   font-family: Roboto;
   font-size: 12px;
   font-style: normal;
@@ -579,7 +589,7 @@ nav p i {
 }
 
 #trial_part .container .trial_text h3 span {
-  color: var(--main-color, #FF6231);
+  color:  #FF6231;
 }
 
 
@@ -593,8 +603,8 @@ nav p i {
 }
 
 
-
 /* trial part end here */
+
 
 
 
@@ -613,7 +623,7 @@ nav p i {
 
 
 #application_information_part .application_text .application_text_date {
-  color: var(--main-color, #FF6231);
+  color: #FF6231;
   font-family: Roboto;
   font-size: 12px;
   font-style: normal;
@@ -625,17 +635,15 @@ nav p i {
 
 #application_information_part .application_text h4 {
   color: #000;
-  /* headings/H4 */
   font-family: Darker Grotesque;
   font-size: 28px;
   font-style: normal;
   font-weight: 600;
   line-height: 110%;
-  /* 30.8px */
 }
 
 #application_information_part .application_text p {
-  color: var(--text-color, #888);
+  color:  #888;
   font-family: Roboto;
   font-size: 16px;
   font-style: normal;
@@ -652,7 +660,7 @@ nav p i {
 }
 
 #application_information_part .application_text .application_text_share span {
-  color: var(--text-color, #888);
+  color: #888;
   font-family: Roboto;
   font-size: 14px;
   font-style: normal;
@@ -680,9 +688,9 @@ nav p i {
   margin-right: 5px;
 }
 
-
-
 /* applicaton information part end here */
+
+
 
 
 /* features part style start here  */
@@ -704,7 +712,7 @@ nav p i {
 
 
 #features_part .feature_image {
-  background: url(/images/featurePic.png);
+  background: url(../images/featurePic.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -724,13 +732,12 @@ nav p i {
 
 
 #features_part .feature_text span {
-  color: var(--main-color, #FF6231);
+  color: #FF6231;
   font-family: Roboto;
   font-size: 12px;
   font-style: normal;
   font-weight: 500;
   line-height: 170%;
-  /* 20.4px */
   letter-spacing: 1.2px;
   text-transform: uppercase;
 }
@@ -739,14 +746,11 @@ nav p i {
 
 #features_part .feature_text h4 {
   color: #000;
-
-  /* headings/H3 */
   font-family: Darker Grotesque;
   font-size: 36px;
   font-style: normal;
   font-weight: 600;
   line-height: 100%;
-  /* 36px */
   text-transform: capitalize;
 }
 
@@ -754,14 +758,11 @@ nav p i {
 
 #features_part .feature_text p {
   color: var(--text-color, #888);
-
-  /* body text */
   font-family: Roboto;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 170%;
-  /* 27.2px */
   width: 438px;
   margin: 14px 0 26px;
 }
@@ -776,7 +777,6 @@ nav p i {
   font-style: normal;
   font-weight: 400;
   line-height: 170%;
-  /* 23.8px */
   padding: 17px 30px;
   border-radius: 50px;
   border: 1px solid #E6EBFC;
@@ -794,7 +794,6 @@ nav p i {
   font-style: normal;
   font-weight: 500;
   line-height: 170%;
-  /* 27.2px */
   text-transform: capitalize;
   border-radius: 30px;
   background: linear-gradient(270deg, rgba(255, 169, 121, 0.99) 0%, rgba(255, 98, 49, 0.99) 100%);
@@ -808,7 +807,7 @@ nav p i {
 
 /* footer part style start here */
 footer {
-  background: url(/images/footerbackground.png);
+  background: url(../images/footerbackground.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -894,5 +893,5 @@ footer .copyright p {
   text-align: center;
 }
 
-
 /* footer part style end here */
+
