@@ -866,12 +866,12 @@ footer .container ul button {
   line-height: 170%;
   padding: 4px 20px;
   border-radius: 20px;
-  border: 2px solid var(--main-color, #FF6231);
+  border: 2px solid  #FF6231;
 }
 
 
 footer .container ul button:hover {
-  color: var(--main-color, #FF6231);
+  color:  #FF6231;
   background: rgba(255, 255, 255, 0.0);
 }
 
