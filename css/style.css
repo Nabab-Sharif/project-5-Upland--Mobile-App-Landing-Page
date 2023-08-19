@@ -87,14 +87,14 @@ nav .btns {
   line-height: 170%;
   padding: 4px 20px;
   border-radius: 20px;
-  border: 2px solid #FF6231;
+  border: 1px solid #FF6231;
   margin-left: 30px;
   background: #FF6231;
 }
 
 nav .btns:hover {
   color: #FF6231;
-  background-color: rgba(255, 255,255, 0);
+  background-color: rgba(255, 255, 255, 0);
 }
 
 nav p {
@@ -117,6 +117,7 @@ nav p i {
 
 
 /* banner part start here */
+
 #banner_part {
   background: url(../images/banner.jpg);
   background-repeat: no-repeat;
@@ -125,7 +126,7 @@ nav p i {
   padding: 257px 0;
   position: relative;
   z-index: 1;
-  object-fit:fill;
+  object-fit: fill;
 }
 
 #banner_part .overlay {
@@ -150,6 +151,16 @@ nav p i {
   letter-spacing: 1.2px;
   text-transform: uppercase;
 }
+
+#banner_part .text h6 i {
+  font-size: 6px;
+  margin-right: 5px;
+}
+
+#banner_part .text h6 .rightS {
+  margin-right: 10px;
+}
+
 
 #banner_part .text h1 {
   color: #FFF;
@@ -256,6 +267,14 @@ nav p i {
   margin-left: 60px;
 }
 
+
+#popular_part .popular_text i {
+  font-size: 6px;
+  margin-right: 5px;
+  color: #FF6231;
+}
+
+
 #popular_part .popular_text h3 {
   color: #000;
   font-family: Darker Grotesque;
@@ -309,6 +328,18 @@ nav p i {
   margin-bottom: 80px;
 }
 
+#presentation_part .icon {
+  text-align: center;
+}
+
+
+#presentation_part i {
+  font-size: 6px;
+  margin-right: 6px;
+  color: #FF6231;
+}
+
+
 #presentation_part h4 {
   color: #FFF;
   text-align: center;
@@ -321,6 +352,11 @@ nav p i {
   margin-bottom: 51px;
 
 }
+
+#presentation_part .icon2 {
+  text-align: start;
+}
+
 
 #presentation_part .presentation_leftSide_text h3 {
   color: #FFF;
@@ -411,7 +447,7 @@ nav p i {
   border-radius: 50px;
   background: linear-gradient(270deg, rgba(239, 135, 77, 0.99) 0%, rgba(255, 98, 49, 0.99) 100%);
   box-shadow: 0px 5px 10px 0px rgba(252, 104, 58, 0.25);
-  border: 2px solid var(--main-color, #FF6231);
+  border: 2px solid #FF6231;
 }
 
 
@@ -446,7 +482,7 @@ nav p i {
   font-style: normal;
   font-weight: 400;
   line-height: 100%;
- 
+
 }
 
 
@@ -529,8 +565,92 @@ nav p i {
 
 
 
-/* about slide part  start here */
-/* about slide part  end here */
+/* about slide part style start here */
+
+
+#aboutSlide_part .container .icon i {
+  font-size: 6px;
+  margin-right: 6px;
+  color: #FF6231;
+}
+
+
+#aboutSlide_part .container h3 {
+  color: #000;
+  font-family: Darker Grotesque;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100%;
+  text-transform: capitalize;
+  margin-bottom: 54px;
+}
+
+
+#aboutSlide_part .slide_main .slide {
+  padding: 30px 40px 40px;
+  width: 480px;
+  border-radius: 20px;
+  background: #FFF;
+  box-shadow: 0px 10px 20px 0px rgba(47, 21, 135, 0.06);
+  margin: 0 20px;
+}
+
+#aboutSlide_part .slide_main .slide .slidelogo {
+  font-size: 50px;
+}
+
+#aboutSlide_part .slide_main .slide p {
+  color: #888;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 170%;
+  margin: 15px 0 30px;
+
+}
+
+#aboutSlide_part .slide_main .slide .slide_one_personInfo {
+  display: flex;
+  column-gap: 20px;
+  align-items: center;
+}
+
+#aboutSlide_part .slide_main .slide .slide_one_personInfo h4 {
+  color: #000;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 170%;
+}
+
+
+#aboutSlide_part .slide_main {
+  position: relative;
+}
+
+#aboutSlide_part .slide_main .left {
+  position: absolute;
+  left: 769px;
+  top: -91px;
+  font-size: 40px;
+  color: #CCC;
+}
+
+#aboutSlide_part .slide_main .right {
+  position: absolute;
+  right: 227px;
+  top: -91px;
+  font-size: 40px;
+  color: #FF6231;
+}
+
+/* about slide part style end here */
+
+
+
 
 
 
@@ -565,7 +685,7 @@ nav p i {
 
 
 #trial_part .container .trial_text p {
-  color:  #FF6231;
+  color: #FF6231;
   font-family: Roboto;
   font-size: 12px;
   font-style: normal;
@@ -589,7 +709,7 @@ nav p i {
 }
 
 #trial_part .container .trial_text h3 span {
-  color:  #FF6231;
+  color: #FF6231;
 }
 
 
@@ -643,7 +763,7 @@ nav p i {
 }
 
 #application_information_part .application_text p {
-  color:  #888;
+  color: #888;
   font-family: Roboto;
   font-size: 16px;
   font-style: normal;
@@ -731,6 +851,9 @@ nav p i {
 }
 
 
+
+
+
 #features_part .feature_text span {
   color: #FF6231;
   font-family: Roboto;
@@ -742,6 +865,16 @@ nav p i {
   text-transform: uppercase;
 }
 
+#features_part .feature_text span i {
+  font-size: 6px;
+  margin-right: 6px;
+  color: #FF6231;
+}
+
+
+#features_part .feature_text span .rightS {
+  margin-right: 10px;
+}
 
 
 #features_part .feature_text h4 {
@@ -866,12 +999,12 @@ footer .container ul button {
   line-height: 170%;
   padding: 4px 20px;
   border-radius: 20px;
-  border: 2px solid  #FF6231;
+  border: 2px solid #FF6231;
 }
 
 
 footer .container ul button:hover {
-  color:  #FF6231;
+  color: #FF6231;
   background: rgba(255, 255, 255, 0.0);
 }
 
@@ -894,4 +1027,3 @@ footer .copyright p {
 }
 
 /* footer part style end here */
-
